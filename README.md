@@ -39,7 +39,7 @@ For example:
 
 [ 6 ] Create a navigation element inside of your header element, after your level 2 heading tag.
 
-[ 7 ] Inside the navigation element, add an unordered list. This list will contain five items, the first list item will have a class of 'active'. The last list item will contain an unordered list with two items, and has a class of 'sub_nav'. Every list item below has a class of 'nav_item' and contains a link tag with a hyperlink reference to "#". The contents of each of the links are:
+[ 7 ] Inside the navigation element, add an unordered list. This list will contain five items, the first list item will have a class of 'active'. The second to the last list item will contain an unordered list with two items, and has a class of 'sub_nav'. Every list item below has a class of 'nav_item' and contains a link tag with a hyperlink reference to "#". The contents of each of the links are:
 
 ```
 Globular
@@ -53,7 +53,7 @@ Euclid
 Commit your work.
 
 [ 8 ]
-After the closing header element, create a div with the id 'layout'. Inside this div create two additional divs, 'main_content' and 'side_content'.
+After the closing header element, create a div with the id 'layout'. Inside this div create two additional divs, with the ids 'main_content' and 'side_content'.
 
 [ 9 ]
 Inside the 'main_content' div, create a new section element. Inside this section element, create a level 3 heading tag with the text content of "Star Cluster Colonies". After the level 3 heading, create the following paragraph:
