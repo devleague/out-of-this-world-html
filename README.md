@@ -199,7 +199,8 @@ Another world tingling of the spine, preserve and cherish that pale blue dot a b
 Commit your work.
 
 [ 21 ]
-After the closing aside element, create a footer tag. In the footer tag, create a paragraph tag, and the contents of the span element are: 
+After the closing aside element, create a footer tag. In the footer tag, create a paragraph tag, and the contents of the paragraph element are:
+
 
 ```
 Carl Sagan ©2024 saganipsum.com
