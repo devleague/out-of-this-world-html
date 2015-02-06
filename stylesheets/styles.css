@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Courgette);
+/*
+body{
+  background-color: #111B36;
+  max-width: 900px;
+  margin: auto;
+  font-family: 'Courgette', cursive;
+}
+
+header {
+  background-image: url(http://fc00.deviantart.net/fs24/f/2007/314/e/1/_Star_Burst__by_DarkShadowRage.jpg);
+  color: white;
+  padding: 20px;
+}
+
+section {
+  background-color: 2 2 2;
+  background-image: url(http://25.media.tumblr.com/2242ef7d5e3bde39ad750e2c03e10692/tumblr_msse9jh9ZL1qhhjs2o1_500.jpg);
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+main_content{
+  color: #FF0000;
+  transition: all 0.5s ease;
+}
+
+main_content:hover{
+  color: #00FF00;
+  transition: all 0.5s ease;
+}
+
+=========== Kelli's Walkthrough ===============*/
+html{
+  font-size: 16px;
+  font-family: 'Courgette', cursive;
+  color: white;
+}
+
+body{
+  background-image: url(http://25.media.tumblr.com/2242ef7d5e3bde39ad750e2c03e10692/tumblr_msse9jh9ZL1qhhjs2o1_500.jpg);
+  background-size: cover;
+}
+
+header{         /*can also: header,#layout*/
+  max-width: 900px;
+  display: block;
+  margin: auto;
+  background-color: green;
+  padding: 50px;
+  box-sizing:border-box;     /*if padding makes to big, this will set size*/
+}
+
+#layout{
+  max-width: 900px;  /*max-width: for responsive*/
+  background-color: pink;
+  display: block;
+  margin: auto;
+  
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Courgette', cursive;
+}
+
+h1{
+  font-size: 9em;
+  text-align: center;
+  border-radius: 8px;
+  transition: all .5s ease;
+  border-bottom: 10px solid white;
+}
+
+h1:hover{
+  font-size: 12em;
+  transition: all .5s ease;
+}
+
+p, li{
+
+
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  border-bottom: 1px dashed white;
+}
+
+nav ul li a{
+  font-size: 2em;
+  background-color: green;
+}
+
+nav ul li a:hover{
+  background-color: blue;
+}

@@ -1,0 +1,116 @@
+for email, if you register add +whatever@gmail.com and you will know if they gave your email for spam
+
+for multiline li's - highlight text, cmd shift l, cmd <left arrow, ctrl shift w for tags
+
+setting up static HTML site
+
+directories are always lowercase and never have spaces
+
+create a empty directory in project area ie. mkdir site1 or cafemirohawaii.com
+git init  
+
+In site directory
+mkdir 
+  stylesheets
+  js
+  images
+touch
+  index.html 
+
+---------------------------------------------------------------------------------
+
+create CSS file and test:
+first step in CSS file is "hello world" ie. background{ color:red; }
+
+http-server
+or can do http-server & 
+  ctr c to kill server
+
+go in browser: localhost:8080
+
+ctl z 
+  bg - make run in background
+  fg 1 - foreground number of open 
+
+if no access to npm (http-server)
+can use: python -m SimpleHTTPserver
+
+if running http-server, open 
+
+---------------------------------------------------------------------------------
+
+web root is also "/"  ie project.com/
+
+relative path accessed by ./  (this directory/same folder)
+path accessed by .// (parent directory)
+
+cmd shift square brackets to jump tabs
+
+
+ELEMENTS
+
+center - box-sizing:border-box
+
+if want to have object centered left and right - * elements need width and max width
+    display:block;
+    margin:auto;
+
+means there will be 30px margin around element
+div{
+  margin:30px    - top only
+  margin:30px 20px - top, right/left
+  margin:30px 20px 80px - top, left/right, bottom
+  margin:30px 20px 80px 100px   - top, right, bottom, left
+}
+
+
+STYLING
+1. Focus on LAYOUT!
+    put everything in colored boxes
+    can inspect element and select element to see and inspect
+
+2. Line things up!
+    make spacing "even"
+    and have few visual "axis"
+
+3. Clean simple text!
+    3 fonts at most
+    only 1 font that pops
+      San-serif typically used for web or large bodies and books
+      google fonts import into style.css or before all main script
+
+* default body font size makes <p> = 1em, makes all h1, p relational to that
+rem - sizing is relative to base font
+% is percent of parent, does not work for fonts
+width and height = max-width works best
+if nothing use just zero (0) without measurement
+
+
+BACKGROUNDS
+can apply background to anything
+background-size: cover (auto fills height and width)  contain (auto width)
+bg-repeat: no-repeat
+
+body {
+  background-image:
+  background-repeat:
+  background-size:
+  background-position:
+}
+
+
+HEXADECIMAL Base 16
+1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F, 10
+hexadecimal color
+FF is max 00 is lowest
+
+color: rgb(255,255,255)
+color: rgba(0,0,0,.5) - a is the opacity btw 0-1
+
+color pickers - MAC DigitalColor Meter
+shift cmd c will copy text color, can paste in sublime ie. 97  66  38  
+
+
+
+
+
